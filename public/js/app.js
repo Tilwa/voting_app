@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 class ProductList extends React.Component {
     render() {
       return (
@@ -9,5 +9,6 @@ class ProductList extends React.Component {
     }
   }
 
+  ReactDOM.render(<ProductList />, document.getElementById('content'));
 
-  export default ProductList;
+//   export default ProductList;
